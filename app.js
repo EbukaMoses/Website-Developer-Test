@@ -41,6 +41,8 @@ function renderUserTemplate(data) {
   // Select the template and the container
   const template = document.getElementById("user-template");
   const container = document.querySelector(".users-container");
+  
+  
 
   // Clone the template content
   const userElement = template.content.cloneNode(true);
@@ -60,6 +62,9 @@ function renderUserTemplate(data) {
         <a class="btn-close">X</a>
     </div>`
   );
+  
+  
+
 
   // Append the cloned content to the container
   container.appendChild(userElement);
@@ -68,3 +73,14 @@ function renderUserTemplate(data) {
 
 // Render the user template with the provided data
 renderUserTemplate(data);
+
+
+
+const closeBtn = document.querySelectorAll(".btn-close");
+
+
+closeBtn.forEach((btn) => {
+    btn.addEventListener("click", function (e) {
+       e.target.parentElement.classList.add("hide") 
+    })
+})

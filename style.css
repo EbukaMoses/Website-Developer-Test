@@ -112,3 +112,6 @@ body {
   right: 20px;
   cursor: pointer;
 }
+.hide{
+    display: none;
+}
