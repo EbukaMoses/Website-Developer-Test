@@ -1,0 +1,114 @@
+body {
+  padding: 5% 15%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.user-container {
+  position: relative;
+  width: 250px;
+  padding: 15px;
+  box-shadow: 2px 2px 2px 2px #00000020;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  background: #fafbf6;
+}
+.user-container:nth-child(1):hover {
+  transition: all 0.3s;
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -webkit-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -moz-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -ms-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -o-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+}
+.user-container:nth-child(2):hover {
+  transition: all 0.3s;
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -webkit-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -moz-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -ms-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -o-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+}
+.user-container:nth-child(2):hover {
+  transition: all 0.3s;
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -webkit-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -moz-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -ms-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -o-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+}
+.user-container:nth-child(3):hover {
+  transition: all 0.3s;
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -webkit-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -moz-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -ms-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -o-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+}
+.user-container:nth-child(4):hover {
+  transition: all 0.3s;
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -webkit-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -moz-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -ms-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+  -o-transform: matrix(1.1, -0.2, 0, 1.1, 0, 0);
+}
+.user-container:nth-child(5):hover {
+  transition: all 0.3s;
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -webkit-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -moz-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -ms-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+  -o-transform: matrix(1.1, 0.2, 0, 1.1, 0, 0);
+}
+.user-image {
+  width: 25%;
+}
+.user-name {
+  visibility: visible;
+}
+
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+}
